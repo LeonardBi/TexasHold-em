@@ -1,0 +1,8 @@
+{
+  "IsBgmEnabled": true,
+  "BgmVolume": 0.4,
+  "IsSfxEnabled": true,
+  "SfxVolume": 0.8,
+  "TableColorHex": "#1B5E20",
+  "IsEnglish": true
+}

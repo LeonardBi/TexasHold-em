@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "新建配置文件",
+    "Projects": [
+      {
+        "Path": "TexasHoldemServer\\TexasHoldemServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TexasHolem\\TexasHoldemClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

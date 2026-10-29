@@ -1,0 +1,510 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\COMP390\\TexasHolem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\hub\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\hub\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\hub\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\hub\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\gamelogic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\gamelogic\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\gamelogic\\handevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\gamelogic\\handevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\gamelogic\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\gamelogic\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\gamelogic\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\gamelogic\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|e:\\comp390\\texasholem\\texasholdemserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C16E73-B1B4-4E6F-87E0-95548088A36D}|TexasHoldemServer\\TexasHoldemServer.csproj|solutionrelative:texasholdemserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\onlinegamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\onlinegamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\offlinegamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\offlinegamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\handevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\handevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\gamemenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\gamemenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\computerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\computerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|e:\\comp390\\texasholem\\texasholem\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242AB07E-5B92-4B7F-A237-03EDCA137FE8}|TexasHolem\\TexasHoldemClient.csproj|solutionrelative:texasholem\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\Models\\User.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Models\\User.cs",
+              "RelativeToolTip": "TexasHoldemServer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:14:08.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Hub\\SessionManager.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\Hub\\SessionManager.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Hub\\SessionManager.cs",
+              "RelativeToolTip": "TexasHoldemServer\\Hub\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:14:07.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\GameLogic\\Player.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\GameLogic\\Player.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\GameLogic\\Player.cs",
+              "RelativeToolTip": "TexasHoldemServer\\GameLogic\\Player.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:13:08.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HandEvaluator.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\GameLogic\\HandEvaluator.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\GameLogic\\HandEvaluator.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\GameLogic\\HandEvaluator.cs",
+              "RelativeToolTip": "TexasHoldemServer\\GameLogic\\HandEvaluator.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:13:01.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\GameLogic\\Deck.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\GameLogic\\Deck.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\GameLogic\\Deck.cs",
+              "RelativeToolTip": "TexasHoldemServer\\GameLogic\\Deck.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:59.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Card.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\GameLogic\\Card.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\GameLogic\\Card.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\GameLogic\\Card.cs",
+              "RelativeToolTip": "TexasHoldemServer\\GameLogic\\Card.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:58.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsWindow.xaml.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\SettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\SettingsWindow.xaml.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\SettingsWindow.xaml.cs",
+              "RelativeToolTip": "TexasHolem\\SettingsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:41.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameHub.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Hub\\GameHub.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\Hub\\GameHub.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Hub\\GameHub.cs",
+              "RelativeToolTip": "TexasHoldemServer\\Hub\\GameHub.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAASwLIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:33:11.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TexasHoldemServer\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:56.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TexasHoldemServer\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:55.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TexasHoldemServer\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHoldemServer\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TexasHoldemServer\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:50.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\RegisterWindow.xaml.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "TexasHolem\\RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:36.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SettingsWindow.xaml",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\SettingsWindow.xaml",
+              "RelativeDocumentMoniker": "TexasHolem\\SettingsWindow.xaml",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\SettingsWindow.xaml",
+              "RelativeToolTip": "TexasHolem\\SettingsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-08T14:12:35.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\Player.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\Player.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\Player.cs",
+              "RelativeToolTip": "TexasHolem\\Player.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:21.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OnlineGameWindow.xaml.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\OnlineGameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\OnlineGameWindow.xaml.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\OnlineGameWindow.xaml.cs",
+              "RelativeToolTip": "TexasHolem\\OnlineGameWindow.xaml.cs",
+              "ViewState": "AgIAAK0BAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:12:03.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OfflineGameWindow.xaml.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\OfflineGameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\OfflineGameWindow.xaml.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\OfflineGameWindow.xaml.cs",
+              "RelativeToolTip": "TexasHolem\\OfflineGameWindow.xaml.cs",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:11:42.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TexasHolem\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:11:10.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HandEvaluator.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\HandEvaluator.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\HandEvaluator.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\HandEvaluator.cs",
+              "RelativeToolTip": "TexasHolem\\HandEvaluator.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:11:06.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GameSettings.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\GameSettings.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\GameSettings.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\GameSettings.cs",
+              "RelativeToolTip": "TexasHolem\\GameSettings.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:11:03.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GameSession.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\GameSession.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\GameSession.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\GameSession.cs",
+              "RelativeToolTip": "TexasHolem\\GameSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:56.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GameEngine.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\GameEngine.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\GameEngine.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\GameEngine.cs",
+              "RelativeToolTip": "TexasHolem\\GameEngine.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:55.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\AssemblyInfo.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\AssemblyInfo.cs",
+              "RelativeToolTip": "TexasHolem\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:37.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\App.xaml.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\App.xaml.cs",
+              "RelativeToolTip": "TexasHolem\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:33.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GameMenu.xaml.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\GameMenu.xaml.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\GameMenu.xaml.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\GameMenu.xaml.cs",
+              "RelativeToolTip": "TexasHolem\\GameMenu.xaml.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:57.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ForgotPasswordWindow.xaml.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\ForgotPasswordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\ForgotPasswordWindow.xaml.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\ForgotPasswordWindow.xaml.cs",
+              "RelativeToolTip": "TexasHolem\\ForgotPasswordWindow.xaml.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:50.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\Deck.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\Deck.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\Deck.cs",
+              "RelativeToolTip": "TexasHolem\\Deck.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:47.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ComputerLogic.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\ComputerLogic.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\ComputerLogic.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\ComputerLogic.cs",
+              "RelativeToolTip": "TexasHolem\\ComputerLogic.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:44.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Card.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\Card.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\Card.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\Card.cs",
+              "RelativeToolTip": "TexasHolem\\Card.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:42.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "E:\\COMP390\\TexasHolem\\TexasHolem\\AudioManager.cs",
+              "RelativeDocumentMoniker": "TexasHolem\\AudioManager.cs",
+              "ToolTip": "E:\\COMP390\\TexasHolem\\TexasHolem\\AudioManager.cs",
+              "RelativeToolTip": "TexasHolem\\AudioManager.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:10:39.128Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

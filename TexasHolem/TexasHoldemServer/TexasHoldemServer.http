@@ -1,0 +1,6 @@
+@TexasHoldemServer_HostAddress = http://localhost:5117
+
+GET {{TexasHoldemServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

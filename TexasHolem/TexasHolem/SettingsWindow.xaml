@@ -1,0 +1,58 @@
+﻿<Window x:Class="TexasHoldemClient.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings / 设置" Height="530" Width="380" 
+        WindowStartupLocation="CenterOwner" Background="#2A2A2A" Foreground="White" ResizeMode="NoResize">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <GroupBox Grid.Row="0" Header="Audio / 音频" Foreground="White" Margin="0,0,0,15" Padding="10">
+            <StackPanel>
+                <Grid Margin="0,0,0,15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <CheckBox x:Name="BgmToggle" Content="Music / 音乐" Foreground="White" VerticalAlignment="Center" Margin="0,0,10,0" Width="110"/>
+                    <Slider x:Name="BgmSlider" Grid.Column="1" Minimum="0" Maximum="1" TickFrequency="0.1" IsSnapToTickEnabled="True" VerticalAlignment="Center"/>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <CheckBox x:Name="SfxToggle" Content="Effects / 音效" Foreground="White" VerticalAlignment="Center" Margin="0,0,10,0" Width="110"/>
+                    <Slider x:Name="SfxSlider" Grid.Column="1" Minimum="0" Maximum="1" TickFrequency="0.1" IsSnapToTickEnabled="True" VerticalAlignment="Center"/>
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="1" Header="Table Color / 牌桌颜色" Foreground="White" Margin="0,0,0,15" Padding="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Green" Background="#1B5E20" Foreground="White" Width="80" Height="30" Margin="5" Tag="#1B5E20" Click="ColorBtn_Click"/>
+                <Button Content="Blue" Background="#0D47A1" Foreground="White" Width="80" Height="30" Margin="5" Tag="#0D47A1" Click="ColorBtn_Click"/>
+                <Button Content="Red" Background="#B71C1C" Foreground="White" Width="80" Height="30" Margin="5" Tag="#B71C1C" Click="ColorBtn_Click"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="2" Header="Language / 语言" Foreground="White" Margin="0,0,0,15" Padding="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <RadioButton x:Name="LangZH" Content="中文" Foreground="White" Margin="10,0,20,0"/>
+                <RadioButton x:Name="LangEN" Content="English" Foreground="White" Margin="10,0,10,0"/>
+            </StackPanel>
+        </GroupBox>
+
+        <StackPanel Grid.Row="4">
+            <Button Content="How to Play / 游戏规则" Height="40" Margin="0,0,0,10" Background="#424242" Foreground="#FFB300" FontWeight="Bold" Click="HelpBtn_Click"/>
+            <Button Content="Save &amp; Close / 保存并关闭" Height="40" Background="#4CAF50" Foreground="White" FontWeight="Bold" Click="SaveBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

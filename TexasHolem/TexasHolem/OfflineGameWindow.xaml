@@ -1,0 +1,197 @@
+﻿<Window x:Class="TexasHoldemClient.OfflineGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Texas Hold'em - Offline Mode" Height="768" Width="1024" MinWidth="1024" MinHeight="768"
+        WindowStartupLocation="CenterScreen" Background="#1a3b1c">
+    <Grid>
+        <Grid Width="960" Height="600" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,40">
+
+            <Grid Background="#1a3b1c" Margin="40,60,40,60">
+                <Border Background="#3E2723" CornerRadius="220" BorderBrush="#1F1209" BorderThickness="4">
+                    <Border.Effect>
+                        <DropShadowEffect Color="Black" BlurRadius="30" Opacity="0.6" Direction="315" ShadowDepth="15"/>
+                    </Border.Effect>
+                    <Border x:Name="PokerTableArea" Margin="25" Background="#1B5E20" CornerRadius="195">
+                        <Border Margin="40" BorderBrush="#4CAF50" BorderThickness="3" CornerRadius="155" Opacity="0.6"/>
+                    </Border>
+                </Border>
+            </Grid>
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-40,0,0">
+                <TextBlock x:Name="PotText" Text="Pot: $0" Foreground="Gold" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+                <StackPanel x:Name="CommunityCardsPanel" Orientation="Horizontal" HorizontalAlignment="Center" Height="100"/>
+            </StackPanel>
+
+            <Grid VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,0">
+                <Border x:Name="HumanBorder" Background="#B2000000" BorderThickness="2" BorderBrush="#55FFFFFF" CornerRadius="10" Padding="10" MinWidth="160">
+                    <StackPanel>
+                        <TextBlock Text="Player (You)" Foreground="White" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="PlayerChipsText" Text="$50000" Foreground="Gold" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center"/>
+                        <StackPanel x:Name="PlayerHoleCardsPanel" Orientation="Horizontal" Height="90" Margin="0,5,0,0" HorizontalAlignment="Center" Cursor="Hand"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="PlayerActionToast" Background="#E6000000" CornerRadius="8" Padding="15,8" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Panel.ZIndex="10">
+                    <TextBlock x:Name="PlayerActionText" Text="Call" Foreground="White" FontSize="18" FontWeight="Bold"/>
+                </Border>
+                <Border x:Name="DealerBtn0" Background="White" BorderBrush="Black" BorderThickness="1" CornerRadius="12" Width="24" Height="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,-10,0,0" Visibility="Collapsed" Panel.ZIndex="5">
+                    <TextBlock Text="D" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+                </Border>
+            </Grid>
+
+            <Grid VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,0,0,0">
+                <Border x:Name="Comp1Border" Background="#B2000000" BorderThickness="2" BorderBrush="#55FFFFFF" CornerRadius="10" Padding="10" MinWidth="150" MinHeight="110">
+                    <StackPanel>
+                        <Grid Margin="0,0,0,5">
+                            <TextBlock Text="Computer 1" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
+                            <Button Content="-" Click="RemoveBot_Click" Tag="1" Width="18" Height="18" Background="#D32F2F" Foreground="White" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0" Cursor="Hand" Margin="0,-5,-5,0"/>
+                        </Grid>
+                        <TextBlock x:Name="Comp1ChipsText" Text="$10000" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <StackPanel x:Name="Comp1HoleCardsPanel" Orientation="Horizontal" Height="90" MinWidth="130" Margin="0,5,0,0" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="AddComp1Btn" Background="#66000000" CornerRadius="10" Visibility="Collapsed">
+                    <Button Content="+" FontSize="40" FontWeight="Bold" Background="Transparent" Foreground="#4CAF50" BorderThickness="0" Cursor="Hand" Click="AddBot_Click" Tag="1"/>
+                </Border>
+                <Border x:Name="Comp1ActionToast" Background="#E6000000" CornerRadius="8" Padding="10,5" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Panel.ZIndex="10">
+                    <TextBlock x:Name="Comp1ActionText" Text="Call" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                </Border>
+                <Border x:Name="DealerBtn1" Background="White" BorderBrush="Black" BorderThickness="1" CornerRadius="12" Width="24" Height="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,-10,-10" Visibility="Collapsed" Panel.ZIndex="5">
+                    <TextBlock Text="D" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+                </Border>
+            </Grid>
+
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Margin="160,0,0,0">
+                <Border x:Name="Comp2Border" Background="#B2000000" BorderThickness="2" BorderBrush="#55FFFFFF" CornerRadius="10" Padding="10" MinWidth="150" MinHeight="110">
+                    <StackPanel>
+                        <Grid Margin="0,0,0,5">
+                            <TextBlock Text="Computer 2" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
+                            <Button Content="-" Click="RemoveBot_Click" Tag="2" Width="18" Height="18" Background="#D32F2F" Foreground="White" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0" Cursor="Hand" Margin="0,-5,-5,0"/>
+                        </Grid>
+                        <TextBlock x:Name="Comp2ChipsText" Text="$10000" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <StackPanel x:Name="Comp2HoleCardsPanel" Orientation="Horizontal" Height="90" MinWidth="130" Margin="0,5,0,0" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="AddComp2Btn" Background="#66000000" CornerRadius="10" Visibility="Collapsed">
+                    <Button Content="+" FontSize="40" FontWeight="Bold" Background="Transparent" Foreground="#4CAF50" BorderThickness="0" Cursor="Hand" Click="AddBot_Click" Tag="2"/>
+                </Border>
+                <Border x:Name="Comp2ActionToast" Background="#E6000000" CornerRadius="8" Padding="10,5" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Panel.ZIndex="10">
+                    <TextBlock x:Name="Comp2ActionText" Text="Call" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                </Border>
+                <Border x:Name="DealerBtn2" Background="White" BorderBrush="Black" BorderThickness="1" CornerRadius="12" Width="24" Height="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,-10,-10" Visibility="Collapsed" Panel.ZIndex="5">
+                    <TextBlock Text="D" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+                </Border>
+            </Grid>
+
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,0,0">
+                <Border x:Name="Comp3Border" Background="#B2000000" BorderThickness="2" BorderBrush="#55FFFFFF" CornerRadius="10" Padding="10" MinWidth="150" MinHeight="110">
+                    <StackPanel>
+                        <Grid Margin="0,0,0,5">
+                            <TextBlock Text="Computer 3" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
+                            <Button Content="-" Click="RemoveBot_Click" Tag="3" Width="18" Height="18" Background="#D32F2F" Foreground="White" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0" Cursor="Hand" Margin="0,-5,-5,0"/>
+                        </Grid>
+                        <TextBlock x:Name="Comp3ChipsText" Text="$10000" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <StackPanel x:Name="Comp3HoleCardsPanel" Orientation="Horizontal" Height="90" MinWidth="130" Margin="0,5,0,0" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="AddComp3Btn" Background="#66000000" CornerRadius="10" Visibility="Collapsed">
+                    <Button Content="+" FontSize="40" FontWeight="Bold" Background="Transparent" Foreground="#4CAF50" BorderThickness="0" Cursor="Hand" Click="AddBot_Click" Tag="3"/>
+                </Border>
+                <Border x:Name="Comp3ActionToast" Background="#E6000000" CornerRadius="8" Padding="10,5" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Panel.ZIndex="10">
+                    <TextBlock x:Name="Comp3ActionText" Text="Call" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                </Border>
+                <Border x:Name="DealerBtn3" Background="White" BorderBrush="Black" BorderThickness="1" CornerRadius="12" Width="24" Height="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,-10,-10" Visibility="Collapsed" Panel.ZIndex="5">
+                    <TextBlock Text="D" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+                </Border>
+            </Grid>
+
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,0,160,0">
+                <Border x:Name="Comp4Border" Background="#B2000000" BorderThickness="2" BorderBrush="#55FFFFFF" CornerRadius="10" Padding="10" MinWidth="150" MinHeight="110">
+                    <StackPanel>
+                        <Grid Margin="0,0,0,5">
+                            <TextBlock Text="Computer 4" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
+                            <Button Content="-" Click="RemoveBot_Click" Tag="4" Width="18" Height="18" Background="#D32F2F" Foreground="White" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0" Cursor="Hand" Margin="0,-5,-5,0"/>
+                        </Grid>
+                        <TextBlock x:Name="Comp4ChipsText" Text="$10000" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <StackPanel x:Name="Comp4HoleCardsPanel" Orientation="Horizontal" Height="90" MinWidth="130" Margin="0,5,0,0" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="AddComp4Btn" Background="#66000000" CornerRadius="10" Visibility="Collapsed">
+                    <Button Content="+" FontSize="40" FontWeight="Bold" Background="Transparent" Foreground="#4CAF50" BorderThickness="0" Cursor="Hand" Click="AddBot_Click" Tag="4"/>
+                </Border>
+                <Border x:Name="Comp4ActionToast" Background="#E6000000" CornerRadius="8" Padding="10,5" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Panel.ZIndex="10">
+                    <TextBlock x:Name="Comp4ActionText" Text="Call" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                </Border>
+                <Border x:Name="DealerBtn4" Background="White" BorderBrush="Black" BorderThickness="1" CornerRadius="12" Width="24" Height="24" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="-10,0,0,-10" Visibility="Collapsed" Panel.ZIndex="5">
+                    <TextBlock Text="D" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+                </Border>
+            </Grid>
+
+            <Grid VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,0,0">
+                <Border x:Name="Comp5Border" Background="#B2000000" BorderThickness="2" BorderBrush="#55FFFFFF" CornerRadius="10" Padding="10" MinWidth="150" MinHeight="110">
+                    <StackPanel>
+                        <Grid Margin="0,0,0,5">
+                            <TextBlock Text="Computer 5" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
+                            <Button Content="-" Click="RemoveBot_Click" Tag="5" Width="18" Height="18" Background="#D32F2F" Foreground="White" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0" Cursor="Hand" Margin="0,-5,-5,0"/>
+                        </Grid>
+                        <TextBlock x:Name="Comp5ChipsText" Text="$10000" Foreground="Gold" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        <StackPanel x:Name="Comp5HoleCardsPanel" Orientation="Horizontal" Height="90" MinWidth="130" Margin="0,5,0,0" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border x:Name="AddComp5Btn" Background="#66000000" CornerRadius="10" Visibility="Collapsed">
+                    <Button Content="+" FontSize="40" FontWeight="Bold" Background="Transparent" Foreground="#4CAF50" BorderThickness="0" Cursor="Hand" Click="AddBot_Click" Tag="5"/>
+                </Border>
+                <Border x:Name="Comp5ActionToast" Background="#E6000000" CornerRadius="8" Padding="10,5" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Panel.ZIndex="10">
+                    <TextBlock x:Name="Comp5ActionText" Text="Call" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                </Border>
+                <Border x:Name="DealerBtn5" Background="White" BorderBrush="Black" BorderThickness="1" CornerRadius="12" Width="24" Height="24" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="-10,0,0,-10" Visibility="Collapsed" Panel.ZIndex="5">
+                    <TextBlock Text="D" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14"/>
+                </Border>
+            </Grid>
+        </Grid>
+
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0">
+            <TextBlock Text="Offline Training Mode" Foreground="LightGray" FontSize="18" FontWeight="Bold"/>
+        </StackPanel>
+
+        <Border HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="280" Height="200" Margin="20,0,0,20" Background="#B2000000" CornerRadius="8">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="Game Log" Foreground="#FFB300" FontWeight="Bold" Margin="0,0,0,5"/>
+                <ListBox x:Name="GameLogBox" Grid.Row="1" Background="Transparent" Foreground="White" BorderThickness="0" FontSize="13" ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
+            </Grid>
+        </Border>
+
+        <Grid HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel x:Name="ActionPanel" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,15" Visibility="Visible">
+                <Button x:Name="FoldBtn" Content="Fold 弃牌" Click="FoldBtn_Click" Height="45" Width="80" Margin="0,0,10,0" FontSize="14" FontWeight="Bold" Background="#424242" Foreground="White"/>
+                <Button x:Name="ActionBtn" Content="Check/Call" Click="CallBtn_Click" Height="45" Width="110" Margin="0,0,10,0" FontSize="14" FontWeight="Bold" Background="#FFB300" Foreground="Black"/>
+                <TextBox x:Name="RaiseAmountInput" Text="300" Width="60" Height="45" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="16" Margin="0,0,5,0"/>
+                <Button x:Name="RaiseBtn" Content="Raise To 加注到" Click="RaiseBtn_Click" Height="45" Width="120" Margin="0,0,10,0" FontSize="14" FontWeight="Bold" Background="#D32F2F" Foreground="White"/>
+                <Button x:Name="AllInBtn" Content="ALL-IN 梭哈" Click="AllInBtn_Click" Height="45" Width="100" FontSize="14" FontWeight="Bold" Background="#B71C1C" Foreground="Gold"/>
+            </StackPanel>
+
+            <StackPanel x:Name="SwapPanel" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,15" Visibility="Collapsed">
+                <Button x:Name="DoSwapBtn" Content="Swap 换选中牌" Click="DoSwapBtn_Click" Height="45" Width="140" Margin="0,0,10,0" FontSize="14" FontWeight="Bold" Background="#1565C0" Foreground="White"/>
+                <Button x:Name="PassSwapBtn" Content="Keep 不换" Click="PassSwapBtn_Click" Height="45" Width="100" FontSize="14" FontWeight="Bold" Background="#424242" Foreground="White"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                <Button x:Name="SettingsBtn" Content="Settings" Click="SettingsBtn_Click" Height="30" Width="80" Margin="0,0,10,0" FontWeight="Bold"/>
+                <Button x:Name="BackBtn" Content="Main Menu" Click="ExitBtn_Click" Height="30" Width="100" FontWeight="Bold"/>
+            </StackPanel>
+        </Grid>
+
+        <Border x:Name="CenterBroadcastToast" Background="#E6000000" CornerRadius="12" Padding="50,30" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" Panel.ZIndex="100">
+            <TextBlock x:Name="CenterBroadcastText" Text="Winner!" Foreground="Gold" FontSize="32" FontWeight="Bold" TextAlignment="Center" TextWrapping="Wrap"/>
+        </Border>
+    </Grid>
+</Window>
